@@ -71,6 +71,11 @@ where `τ` is the period, `a` is the peak amplitude, and `φ` is the phase offse
 ## Usage
 
 ```javascript
+import iterSawtoothWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-sawtooth-wave@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/simulate-iter-sawtooth-wave/tags). For example,
+
+```javascript
 import iterSawtoothWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-sawtooth-wave@v0.1.0-esm/index.mjs';
 ```
 
@@ -241,7 +246,7 @@ var bool = it.next().done;
 <body>
 <script type="module">
 
-import iterSawtoothWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-sawtooth-wave@v0.1.0-esm/index.mjs';
+import iterSawtoothWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-sawtooth-wave@esm/index.mjs';
 
 // Create an iterator:
 var opts = {
