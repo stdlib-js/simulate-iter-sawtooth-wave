@@ -71,7 +71,7 @@ where `τ` is the period, `a` is the peak amplitude, and `φ` is the phase offse
 ## Usage
 
 ```javascript
-import iterSawtoothWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-sawtooth-wave@deno/mod.js';
+import iterSawtoothWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-sawtooth-wave@v0.2.2-deno/mod.js';
 ```
 
 #### iterSawtoothWave( \[options] )
@@ -236,7 +236,7 @@ var bool = it.next().done;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import iterSawtoothWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-sawtooth-wave@deno/mod.js';
+import iterSawtoothWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-sawtooth-wave@v0.2.2-deno/mod.js';
 
 // Create an iterator:
 var opts = {
